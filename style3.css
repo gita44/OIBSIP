@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #726e72;
+}
+
+header {
+    background-color: #333;
+    color: #f0e5e5;
+    text-align: center;
+  
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-style: italic;
+    background-color: #be4646;
+    border-radius: 5%;
+    padding: 0.1%;
+    box-shadow: 0 0 10px #fff;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 13, 34);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    font-size: large;
+    color: #f5efef;
+    background-color: #5a234a;
+    padding: 8%;
+    border-radius: 7%;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+    box-shadow: 0 0 10px #a129a5;
+
+}
+.nav-links a:hover,
+.nav-links a.active {
+    color: #3198aa;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background-color: #a3a2a5;
+    border-radius: 2%;
+    background-image: url(img5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-style: italic;
+    color: #fff;
+}
+
+.hero p {
+    color: #ebeaec;
+    font-size: 20px;
+}
+
+.hero .btn {
+    font-size: large;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e2dde1;
+    color: #0f0220;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.recipe {
+    flex-basis: 250px;
+    padding: 20px;
+    border: 1px solid #f3efef;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #030303;
+    
+}
+
+.contact {
+    text-align: center;
+    background-color: #dbd2d2;
+
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #5a0b50;
+    padding: 10px 0;
+}
